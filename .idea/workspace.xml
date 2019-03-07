@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c67cfd-f2ac-44a4-a5dc-c08f65aa0dd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student-constructor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student-constructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/student-constructor.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/student-constructor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -56,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="32" />
     <option name="width" value="697" />
@@ -111,16 +109,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551941551608</updated>
-      <workItem from="1551941555864" duration="12307000" />
+      <workItem from="1551941555864" duration="21318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12307000" />
+    <option name="totallyTimeSpent" value="21318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15153733" />
@@ -154,8 +151,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/student-constructor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="306">
+          <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
         </state>
       </provider>
     </entry>

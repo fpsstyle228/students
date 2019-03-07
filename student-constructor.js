@@ -23,7 +23,7 @@ function Student(name,surname,bornYear,) {
             }
         }).mark
         var middleMark = marksSumm / this.presentArray.length;
-        var middlePresent = this.presentArray.length / this.presentArray.filter((a) => a.present==true).length
+        var middlePresent = this.presentArray.filter((a) => a.present==true).length / this.presentArray.length
         
         if (middleMark >= 90 && middlePresent >= 0.9 ) {
             console.log('Ути какой молодчинка!');
@@ -39,20 +39,29 @@ function Student(name,surname,bornYear,) {
 }
 
 function StudentArray(...rest) {
-    this.middlePresentForGroup = [];
+    this.lessonArray = [];
     this.attendance = function () {
         if(!arguments.length){
-            middlePresentForGroup = rest.map((student) => {
-
-            })
-
+            for(let i = 0;i <= 25; i++){
+                var presentStuents = [];
+                rest.forEach((std) => {
+                    if (std.presentArray[i] && std.presentArray[i].present){
+                        presentStuents.push(std)
+                    }
+                });
+                this.lessonArray.push(presentStuents);
+            }
+                this.lessonArray.forEach((arr) => arr.push(arr.length / rest.length ));
+                this.lessonArray.forEach((arr, key) => console.log( key + 1, '-' ,arr[arr.length - 1]))
+            console.log(this.lessonArray);
         }
     }
 }
-Student.prototype = Student;
+// StudentArray.prototype.Student = Student;
 var sasha = new Student("Oleksandr", 'Tatarinov', 1999);
-sasha.apsent();
 sasha.present(90);
+sasha.present(90);
+sasha.apsent();
 sasha.present(90);
 sasha.present(90);
 sasha.present(90);
@@ -60,6 +69,8 @@ var valera = new Student("Valera", "Зотович", 2000);;
 valera.present(87);
 valera.present(87);
 valera.present(87);
+valera.present(87);
+valera.apsent();
 valera.present(87);
 var arrayStudents = new StudentArray(sasha,valera);
 arrayStudents.attendance()
